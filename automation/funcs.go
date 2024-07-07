@@ -56,21 +56,3 @@ func rangePortas(host string, portaInicial, portaFinal int) {
 	}
 	fmt.Println()
 }
-
-
-func main() {
-	host := "192.168.121.95"
-
-	porta:= 22
-	umaortaUnica(host, porta)
-	
-	fmt.Printf("Kubernetes API server:\n")
-	porta= 80
-	umaortaUnica(host, porta)
-
-	// Testar um intervalo de portas
-	fmt.Printf("NodePort Services:\n")
-	portaInicial := 10
-	portaFinal := 60
-	rangePortas(host, portaInicial, portaFinal)
-}
