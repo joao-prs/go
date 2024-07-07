@@ -6,7 +6,6 @@ package main
 import (
     "fmt"
     "time"
-
     "github.com/nsf/termbox-go"
 )
 
