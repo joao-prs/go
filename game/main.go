@@ -1,4 +1,4 @@
-// go mod init
+// go mod init game
 // go get golang.org/x/term
 
 package main
