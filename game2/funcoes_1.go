@@ -102,10 +102,12 @@ func quitando() {
 }*/
 
 func quitando() {
-	frase := "Saindo do jogo....."
+	
+	fmt.Printf("\n\n")
+	frase := "....Saindo do jogo.........................................."
 	for _, char := range frase {
 		fmt.Printf("%c", char)
-		time.Sleep(100 * time.Millisecond)
+		time.Sleep(25 * time.Millisecond)
 	}
 	fmt.Println()
 	
@@ -120,8 +122,8 @@ func quitando() {
 
 
 func linha_0() {
-	fmt.Printf("************************************************************\n");
+	fmt.Printf("************************************************************\n")
 }
 func linha_1() {
-	fmt.Printf("------------------------------------------------------------\n");
+	fmt.Printf("------------------------------------------------------------\n")
 }

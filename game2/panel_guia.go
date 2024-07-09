@@ -89,5 +89,4 @@ func panel_manual_do_game() {
 	fmt.Printf("\n\n                 obrigado por jogar  :D\n\n\n")
 	linha_0()
 	time.Sleep(2 * time.Second)
-	
 }

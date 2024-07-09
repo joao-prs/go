@@ -11,11 +11,8 @@ import (
 )
 
 func main() {
-	// criando personagem
 
-	jogador := panel_create_player()
-	panel_introducao_0(jogador)
-	panel_manual_do_game()
+	menu_inicial()
 
 	// encerrar quando nao houver mais funcoes
 	quitando()
