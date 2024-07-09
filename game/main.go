@@ -1,3 +1,6 @@
+// go mod init
+// go get golang.org/x/term
+
 package main
 
 import (
@@ -15,7 +18,7 @@ type Pessoa struct {
 func main() {
 	
 	var p Pessoa
-
+	screen_size_block()
 	fmt.Printf("Qual seu nome?\n")
 
 	// lendo o nome da pessoa
@@ -37,4 +40,8 @@ func main() {
 	}
 	// exibindo os dados das pessoas
 	fmt.Printf("Nome: %s, Idade: %d\n", p.Nome, p.Idade)
+
+	clearScreen() 
+	show_main_lore()
+	screen_size()
 }
