@@ -1,20 +1,25 @@
+// go mod init classe
+
 package main
 
-import "fmt"
+import (
+	"classe/funcionario"
+	"fmt"
+)
 
 func main() {
-	
-	individuo := Funcionario{
-		nome: "Jordan",
-		idade: 26,
-		cargo: "devops",
-		salario: 4000.0,
+	individuo := funcionario.Funcionario{
+		Pessoa: funcionario.Pessoa{
+			Nome:  "Jordan",
+			Idade: 26,
+		},
+		Cargo:   "devops",
+		Salario: 4000.0,
 	}
 
-	fmt.Println("Nome do cara: ", individuo.nome)
+	fmt.Println("Nome do cara: ", individuo.Nome)
 
 	individuo.ExibirInfo()
 
-	individuo.trabalhar()
+	individuo.Trabalhar()
 }
-
