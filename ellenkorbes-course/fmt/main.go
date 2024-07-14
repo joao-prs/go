@@ -17,4 +17,7 @@ func main() {
 	*/
 	y := `"Ola, bom dia.\n como vai?\tespero \"que\" tudo bem."`
 	fmt.Println(y)
+
+	z := "sad999 sadasdasd"
+	fmt.Println(z)
 }

@@ -8,7 +8,6 @@ var b float64
 var c string
 var d bool
 
-
 func main() {
 	x := 10
 	fmt.Printf("%v, %T\n", x, x)
