@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("%v\n", b)
 
 	/*
-		conversao
+		conversao 
 	*/
 	x = int(b)
 	fmt.Printf("%v\n", x)
